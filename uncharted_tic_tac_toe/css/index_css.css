@@ -1,0 +1,274 @@
+body{
+background-image: url(../images/background1.jpg);   
+background-size: cover; 
+}
+
+body, html{
+    overflow: hidden;
+}
+
+.img1_{
+    width: 12vw;
+    height: 65vh;
+    position: relative;
+    bottom: 2vh;
+}
+
+.img1_ img{
+    width: 100%;
+    height: 65vh;
+}
+
+.head{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Italianno', cursive;
+    color: rgb(136, 8, 8);
+    position: relative;
+    bottom: 7vh;
+}
+
+.head h3{
+    position: relative;
+    bottom: 6vh;
+}
+
+.wholeline{
+    position: relative;
+    bottom: 18vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    justify-content: space-around;    
+}
+
+.singlekarakter{
+    width: 16vw;
+    border: 5px solid wheat;
+    background-color: black;
+    padding-bottom: 3vh;
+}
+
+.charaktername{
+    text-align: center;
+    color: wheat;
+    font-family: 'Italianno', cursive;
+    font-size: 1.5rem;
+}
+
+.pic{
+    margin-left: 8%;
+    width: 80%;
+    height: 25vh;
+    margin-bottom: 3vh;
+    border: 5px solid rgb(245, 222, 179);
+}
+
+.pic img{
+    width: 100%;
+    height: 25vh;
+}
+
+.upperpic{
+    position: relative;
+    bottom: 3vh;
+    width: 40%;
+    height: 13vh;
+    margin-left: 29%;
+    opacity: 0.7;
+    border: 3px solid rgba(245, 222, 179, 0.7);
+    transition: all linear 0.5s;
+}
+
+.upperpic img{
+    width: 100%;
+    height: 13vh;
+}
+
+.lowerpic{
+    width: 40%;
+    height: 13vh;
+    margin-left: 29%;
+    opacity: 0.7;
+    border: 3px solid rgba(245, 222, 179, 0.7);
+    transition: all linear 0.5s;
+}
+
+.lowerpic img{
+    width: 100%;
+    height: 13vh;
+}
+
+.vs{
+    position: relative;
+    top: 18vh;
+}
+
+.submit{
+    position: relative;
+    left: 35vw;
+    bottom: 34vh;
+    font-size: 1.8rem;
+    height: 11vh;
+    text-align: center;
+    color: wheat;
+    border: 5px solid rgb(245, 222, 179);
+    font-family: 'Italianno', cursive;
+    background-color: black;
+    width: 28vw;
+    transition: all linear 0.3s;
+}
+
+.submit h1{
+    position: relative;
+    bottom: 4vh;
+}
+
+.upperpic:hover , .lowerpic:hover{
+    cursor: pointer;
+    border: rgba(245, 222, 179, 1) solid 3px;
+    transform: scale(1.2, 1.2);
+    opacity: 1;
+}
+
+.submit:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    color: wheat;
+}
+
+.loading{
+    position: relative;
+    left: 34vw;
+    bottom: 26vh;
+    height: 3vh;
+    border-radius: 60px;
+    text-align: center;
+    color: wheat;
+    border: 5px solid wheat;
+    font-family: 'Italianno', cursive;
+    width: 30vw;
+    animation-name: getfull;
+    animation-duration: 6s;
+}
+
+@keyframes getfull {
+    0%{
+        box-shadow: inset 0 0 0 0 black;
+    }
+
+    90%{
+        box-shadow: inset 30vw 0 0 0 black;
+    }
+
+    100%{
+        box-shadow: inset 30vw 0 0 0 black;
+    }
+}
+
+
+.downhead{
+    position: relative;
+    right: 33vw;
+    width: 96vw;
+    font-size: 2.4rem;
+    color: wheat;
+    font-family: 'Italianno', cursive;
+}
+
+#grid-container{
+    position: relative;
+    top: 15vh;
+    right: 6vw;
+    width: 20vw;
+    height: 20vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto; 
+      text-align: center;
+      color: wheat;
+  }
+  .grid-item {
+    width: auto;
+    height: 10vh;
+    width: 10vw;
+    padding-bottom: 40%; /* This creates a square aspect ratio (1:1) */
+    cursor: pointer;
+    border: wheat solid 2px;
+  }
+
+  .headl h2{
+    position: relative;
+    bottom: 8vh;
+  }
+
+  .headl{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Italianno', cursive;
+    color: wheat;
+    position: relative;
+    bottom: 7vh;
+  }
+
+  .headl h3{
+    position: relative;
+    bottom: 16vh;
+  }
+
+  .finalimage{
+    width: 12vw;
+    height: 65vh;   
+    position: relative;
+    left: 43vw;
+    bottom: 28vh;
+  }
+
+  .finalimage img{
+    width: 100%;
+    height: 70vh;
+  }
+
+  .submitl{
+    border: 5px solid wheat;
+    font-family: 'Italianno', cursive;
+    font-size: 1.6rem;
+    color: wheat;
+    position: relative;
+    height: 5vh;
+    width: 15vw;
+    left: 43vw;
+    bottom: 22vh;
+    background-color: black;
+  }
+
+  .submitl:hover{
+    cursor: pointer;
+  }
+
+  .submitl h1{
+    position: relative;
+    bottom: 6vh;
+    text-align: center;
+  }
+
+  .bothcharakters{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 5vw;
+  }
+
+  .headp{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Italianno', cursive;
+    color: wheat;
+    position: relative;
+    bottom: 7vh;
+  }
+
+  .headp h3{
+    position: relative;
+    bottom: 6vh;
+}
